@@ -6,11 +6,11 @@ function MainNavigation() {
   return (
     <header className={classes.header}>
       <nav>
-        <ul>
-          <li className={classes.list}>
+        <ul className={classes.list}>
+          <li>
             <Link to="/">Home</Link>
           </li>
-          <li className={classes.list}>
+          <li>
             <Link to="/products">Products</Link>
           </li>
         </ul>
